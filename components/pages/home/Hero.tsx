@@ -4,7 +4,7 @@ import Link from "next/link"
 
 function Hero() {
   return (
-    <div className="relative overflow-x-hidden">
+    <div id="home" className="relative overflow-x-hidden">
       <div className="absolute inset-0 bg-main-dark">
         <Image
           src="/images/hero.png"

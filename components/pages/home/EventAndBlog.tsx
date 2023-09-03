@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 function EventAndBlog() {
   return (
-    <section id="gallery" className="relative py-14 px-4 lg:container mx-auto md:text-center">
+    <section id="events" className="relative py-14 px-4 lg:container mx-auto md:text-center">
       <div className="text-center text-black font-openSans font-bold">
         <span className="text-[15px] tracking-wide">
           Events & Blog

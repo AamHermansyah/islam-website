@@ -68,12 +68,12 @@ function Footer() {
                 Quick Links
               </h4>
               <nav className="w-full flex flex-col gap-2 text-sm sm:text-lg mt-4 font-openSans font-normal">
-                <Link href="/" className="hover:underline">Home</Link>
-                <Link href="/" className="hover:underline">About Us</Link>
-                <Link href="/" className="hover:underline">Pillars of Islam</Link>
-                <Link href="/" className="hover:underline">Gallery</Link>
-                <Link href="/" className="hover:underline">Event & Blog</Link>
-                <Link href="/" className="hover:underline">Contact</Link>
+                <Link href="#home" className="hover:underline">Home</Link>
+                <Link href="#history" className="hover:underline">About Us</Link>
+                <Link href="#pillars" className="hover:underline">Pillars of Islam</Link>
+                <Link href="#gallery" className="hover:underline">Gallery</Link>
+                <Link href="#events" className="hover:underline">Event & Blog</Link>
+                <Link href="#contact" className="hover:underline">Contact</Link>
               </nav>
             </div>
             <div>
@@ -81,8 +81,8 @@ function Footer() {
                 Quick Links
               </h4>
               <nav className="w-full flex flex-col gap-2 text-sm sm:text-lg mt-4 font-openSans font-normal">
-                <Link href="/" className="hover:underline">Namaz Timings</Link>
-                <Link href="/" className="hover:underline">FAQ</Link>
+                <Link href="#timing" className="hover:underline">Namaz Timings</Link>
+                <Link href="/faq" className="hover:underline">FAQ</Link>
               </nav>
             </div>
             <div>
